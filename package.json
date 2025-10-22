@@ -1,10 +1,16 @@
 {
   "name": "json-flow",
-  "displayName": "JSON Flow",
+  "displayName": "JSON-Flow",
   "description": "A VS Code extension that visualizes JSON as a graph in realtime.",
   "version": "0.0.1",
+  "publisher": "ankursharma",
+  "license": "SEE LICENSE IN LICENSE.md",
   "engines": {
     "vscode": "^1.80.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ankur2491/JSON-Flow-VS"
   },
   "categories": [
     "Other"
