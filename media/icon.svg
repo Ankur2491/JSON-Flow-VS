@@ -1,0 +1,22 @@
+<svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- JSON Brackets -->
+  <path d="M4 4v4h2v2H4v4h2v2H4v4" stroke="#00BFA6" stroke-width="2" stroke-linecap="round"></path>
+  <path d="M20 4v4h-2v2h2v4h-2v2h2v4" stroke="#00BFA6" stroke-width="2" stroke-linecap="round"></path>
+
+  <!-- Graph Nodes -->
+  <circle cx="12" cy="12" r="1.6" fill="#FF6B6B"></circle> <!-- center -->
+  <circle cx="12" cy="6" r="1.4" fill="#FF6B6B"></circle>  <!-- top -->
+  <circle cx="17" cy="9" r="1.4" fill="#FF6B6B"></circle>  <!-- top-right -->
+  <circle cx="17" cy="15" r="1.4" fill="#FF6B6B"></circle> <!-- bottom-right -->
+  <circle cx="12" cy="18" r="1.4" fill="#FF6B6B"></circle> <!-- bottom -->
+  <circle cx="7" cy="15" r="1.4" fill="#FF6B6B"></circle>  <!-- bottom-left -->
+  <circle cx="7" cy="9" r="1.4" fill="#FF6B6B"></circle>   <!-- top-left -->
+
+  <!-- Edges -->
+  <line x1="12" y1="12" x2="12" y2="6" stroke="#1E1E1E" stroke-width="1.3"></line>
+  <line x1="12" y1="12" x2="17" y2="9" stroke="#1E1E1E" stroke-width="1.3"></line>
+  <line x1="12" y1="12" x2="17" y2="15" stroke="#1E1E1E" stroke-width="1.3"></line>
+  <line x1="12" y1="12" x2="12" y2="18" stroke="#1E1E1E" stroke-width="1.3"></line>
+  <line x1="12" y1="12" x2="7" y2="15" stroke="#1E1E1E" stroke-width="1.3"></line>
+  <line x1="12" y1="12" x2="7" y2="9" stroke="#1E1E1E" stroke-width="1.3"></line>
+</svg>

@@ -1,0 +1,58 @@
+{
+  "name": "json-flow",
+  "displayName": "JSON Flow",
+  "description": "A VS Code extension that visualizes JSON as a graph in realtime.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished",
+    "onView:editorWebviewSplitView"
+  ],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "editorWebviewSplitContainer",
+          "title": "JSON Flow",
+          "icon": "media/icon.svg"
+        }
+      ]
+    },
+    "views": {
+      "editorWebviewSplitContainer": [
+        {
+          "type": "webview",
+          "id": "editorWebviewSplitView",
+          "name": ""
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "editorWebviewSplit.open",
+        "title": "Open Editor + Webview Split"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -w -p ./",
+    "postinstall": "npm run compile"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.1",
+    "@types/vscode": "^1.80.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
